@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/BG-3.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "abstract background";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "GitHub User Finder Web App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created a web application with the help of free external API provided by GitHub itself to search and find its user and can get there detials.",
+    url: "https://github-user-finder-wheat.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Pokedex",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a web application with the help of a free external API to search and get details of any pokemon.",
+    url: "https://pokedex-mocha-theta-87.vercel.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Job Application Form",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Design and developed an online job application form in Vite React to enhance my frontend skills and React knowledge by implementing conditional rendering.",
+    url: "https://job-application-form-pearl.vercel.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Tic Tac Toe Game",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Design and Developed a Tic Tac Toe game in React App to let folks play and enjoy games in there free time which they do not need to install in there phone or laptop.",
+    url: "https://tic-tac-toe-game-eosin-nine.vercel.app/",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
